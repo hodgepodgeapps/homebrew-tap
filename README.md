@@ -1,11 +1,11 @@
-# homebrew-bezel-it
+# homebrew-tap
 
 Homebrew tap for Bezel It's command line tool.
 
 ## Tap
 
 ```bash
-brew tap Hodgepodge-Apps/bezel-it
+brew tap hodgepodgeapps/tap
 ```
 
 ## Install
@@ -17,5 +17,5 @@ brew install bezel-it
 ## Run
 
 ```bash
-bezelIt --help
+bezelit --help
 ```
