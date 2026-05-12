@@ -1,16 +1,15 @@
 class BezelIt < Formula
   desc "Add bezels to Apple device screenshots"
   homepage "https://www.hodgepodgeapps.com/bezel-it/"
-  url "https://github.com/hodgepodgeapps/bezel-it-cli/releases/download/v0.2/bezelit-macos.zip"
-  sha256 "0d0ded87af1d6b8a8ea867841b16f9e11da22ec11f78c677e73293c0f84a0fcf"
-  version "0.2"
+  url "https://github.com/hodgepodgeapps/bezel-it-cli/releases/download/v0.3/bezelit-macos.zip"
+  sha256 "83ed6dffb8c601c3651361a3847827d1dc73ec870088937bcc0ab610868ef471"
+  version "0.3"
 
   depends_on arch: :arm64
   depends_on macos: :tahoe
 
   def install
-    libexec.install Dir["*"]
-    bin.install_symlink libexec/"BezelItCommandLine" => "bezelit"
+    bin.install "BezelItCommandLine" => "bezelit"
   end
 
   def caveats
