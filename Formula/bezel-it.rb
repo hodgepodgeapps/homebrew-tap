@@ -1,9 +1,9 @@
 class BezelIt < Formula
-  desc "Add bezels to Apple device screenshots"
+  desc "Add bezels to Apple device screenshots and videos"
   homepage "https://www.hodgepodgeapps.com/bezel-it/"
-  url "https://github.com/hodgepodgeapps/bezel-it-cli/releases/download/v0.3/bezelit-macos.zip"
-  sha256 "83ed6dffb8c601c3651361a3847827d1dc73ec870088937bcc0ab610868ef471"
-  version "0.3"
+  url "https://github.com/hodgepodgeapps/bezel-it-cli/releases/download/v2.5.40/bezelit-macos.zip"
+  sha256 "953160c6523c4278dd90d7b421d06e6fdbc28eb94ce20fb39fb843f46b18c3bf"
+  version "2.5.40"
 
   depends_on arch: :arm64
   depends_on macos: :tahoe
